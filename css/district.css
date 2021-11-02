@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(../backgrounds4u/misty.jpg);
+    background-size: cover;
+}
+.dist h4{
+    margin-top: 40px;
+    margin-left: 550px;
+    
+}
+.dist p{
+    margin-top: 40px;
+    margin-left: 320px;
+    text-align: justify;
+    width: 50%;
+    color: black;
+}
+/* .distcard{
+    height: 10px;
+    width: 10px;
+} */
+.cardd{
+    margin-top: 50px;
+    width: 35px;
+    height: 35px;
+}

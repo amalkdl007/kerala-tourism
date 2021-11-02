@@ -1,0 +1,62 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.card-img{
+    height: 550px;
+    width: 550px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: inherit;
+}
+.card-title{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-text{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    color: black;
+
+}
+.card-link{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    border-color: blue;
+}
+
+#scroll{
+    margin-top: 3%;
+    color: ivory;
+}
+.head1{
+    margin-top: 70px;
+    margin-left: 335px;
+    width: 50%;
+    text-align: center;
+    color: ivory; 
+}
+
+.head-tag{
+    margin-top: 20px;
+    margin-left: 335px;
+    width: 50%;
+    text-align: justify;
+    color: ivory; 
+
+}
+.head2{
+    color: burlywood;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.end{
+    color:burlywood;
+    text-align: center;
+
+}
+
