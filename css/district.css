@@ -2,11 +2,8 @@
     padding: 0px;
     margin: 0px;
 }
-body{
-    background-image: url(../backgrounds4u/misty.jpg);
-    background-size: cover;
-}
 .dist h4{
+    color: darkblue;
     margin-top: 40px;
     margin-left: 550px;
     
@@ -16,14 +13,261 @@ body{
     margin-left: 320px;
     text-align: justify;
     width: 50%;
+    color: darkslategray;
+}
+.row{
+    padding-top: 80px;
+    padding-left: 35px;
+}
+.overlay{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+   
+
+}
+.row a{
+    text-decoration: none;
     color: black;
+
 }
-/* .distcard{
-    height: 10px;
-    width: 10px;
-} */
-.cardd{
+.end{
+    margin-top: 30%;
+}
+
+
+/* Individual page css starts here */
+
+body{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+}
+
+.location a{
+    text-decoration: none;
+    color: darkslategray;
+    border-color: darkslategrey;
+}
+.location{
+    margin-top: 70px;
+    margin-left: 31%;
+}
+.card-group{
+    border: 2px solid green;
+    margin-top: 40%;
+    width: 850px;
+    margin-left: 18%;
+    text-shadow: indigo;
+}
+.card-group a{
+    text-decoration: none;
+    
+}
+
+
+
+/* Headings start here */
+
+
+.dname1{
     margin-top: 50px;
-    width: 35px;
-    height: 35px;
+    margin-left: 42%;
+    text-decoration-line: underline;
+
 }
+.para1{
+    text-align: justify;
+    color: black;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+}
+.dname2{
+    color: wheat;
+    margin-top: 50px;
+    margin-left: 42%;
+    text-decoration-line: underline;
+
+}
+.para2{
+    text-align: justify;
+    color: wheat;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+}
+.dname3{
+    color: black;
+    margin-top: 50px;
+    margin-left: 42%;
+    text-decoration-line: underline;
+
+}
+.para3{
+    text-align: justify;
+    color: white;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 90px;
+}
+.dname4{
+    color: burlywood;
+    margin-top: 50px;
+    margin-left: 42%;
+    text-decoration-line: underline;
+
+}
+.para4{
+    text-align: justify;
+    color: white;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+}
+.dname5{
+    color: black;
+    margin-top: 50px;
+    margin-left: 42%;
+    text-decoration-line: underline;
+
+}
+.para5{
+    text-align: justify;
+    color: white;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 250px;
+}
+.dname6{
+    color: black;
+    margin-top: 50px;
+    margin-left: 42%;
+    text-decoration-line: underline;
+
+}
+.para6{
+    text-align: justify;
+    color: white;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 220px;
+}
+.dname7{
+    color: black;
+    margin-top: 50px;
+    margin-left: 42%;
+    text-decoration-line: underline;
+
+}
+.para7{
+    text-align: justify;
+    color: white;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 260px;
+}
+.dname8{
+    margin-top: 50px;
+    margin-left: 42%;
+    text-decoration-line: underline;
+
+}
+.para8{
+    text-align: justify;
+    color: black;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+}
+.dname9{
+    color: burlywood;
+    margin-top: 50px;
+    margin-left: 42%;
+    text-decoration-line: underline;
+
+}
+.para9{
+    text-align: justify;
+    color: burlywood;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+}
+.dname10{
+    margin-top: 50px;
+    margin-left: 42%;
+    text-decoration-line: underline;
+
+}
+.para10{
+    text-align: justify;
+    color: black;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+}
+.dname11{
+    margin-top: 50px;
+    margin-left: 42%;
+    text-decoration-line: underline;
+
+}
+.para11{
+    text-align: justify;
+    color: black;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+}
+.dname12{
+    color: white;
+    margin-top: 50px;
+    margin-left: 42%;
+    text-decoration-line: underline;
+
+}
+.para12{
+    text-align: justify;
+    color: wheat;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 200px;
+}
+.dname13{
+    margin-top: 50px;
+    margin-left: 42%;
+    text-decoration-line: underline;
+
+}
+.para13{
+    text-align: justify;
+    color: white;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 250px;
+}
+.dname14{
+    margin-top: 50px;
+    margin-left: 42%;
+    text-decoration-line: underline;
+
+}
+.para14{
+    text-align: justify;
+    color: black;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+}
+
+/* Headings end here */
+
+/* Individual page css ends here */
+
+
+
+
+
+
+

@@ -32,6 +32,7 @@
     margin-top: 3%;
     color: ivory;
 }
+
 .head1{
     margin-top: 70px;
     margin-left: 335px;
@@ -45,13 +46,21 @@
     margin-left: 335px;
     width: 50%;
     text-align: justify;
-    color: ivory; 
-
+    color: ivory;
+     
 }
+
 .head2{
     color: burlywood;
     margin-top: 15px;
     text-align: center;
+}
+.slides{
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .end{
