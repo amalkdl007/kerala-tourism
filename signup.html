@@ -50,41 +50,44 @@
 
     <!-- signup form starts here -->
 
-    <div class="signedout">
-      <form class="row g-3">
+    <div class="signedout"> 
+        <form action="login.html" onsubmit="return validate()"  class="row g-3">
+
         <div class="col-12">
           <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
+          <input type="email" required class="form-control" id="email1">
+          <label for="error" id="error"></label>
         </div>
         
         <div class="col-12">
           <label for="inputname1" class="form-label">First name</label>
-          <input type="text" class="form-control" id="inputname1">
+          <input type="text" required class="form-control" id="Fname">
         </div>
 
         <div class="col-12">
           <label for="inputname2" class="form-label">Second name</label>
-          <input type="text" class="form-control" id="inputname2">
+          <input type="text" required class="form-control" id="Lname">
         </div>
 
         <div class="col-12">
           <label for="inputnumber" class="form-label">Mobile number</label>
-          <input type="text" class="form-control" id="inputnumber">
+          <input type="text" required class="form-control" id="phonenumber">
+    
         </div>
 
         <div class="col-12">
           <label for="inputPassword4" class="form-label">New Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
+          <input type="password" required class="form-control" id="Pwd1">
         </div>
 
         <div class="col-12">
           <label for="inputPassword5" class="form-label">Retype Password</label>
-          <input type="password" class="form-control" id="inputPassword5">
+          <input type="password" required class="form-control" id="Pwd2">
         </div>
 
        <div class="col-12">
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <input class="form-check-input"  type="checkbox" id="gridCheck">
             <label class="form-check-label" for="gridCheck">
               I agree to the Terms and Conditions
             </label>
@@ -95,6 +98,65 @@
         </div>
       </form>
     </div>
+
+<!-- New form starts here -->
+
+    <!-- <div col-lg-12>
+      <form class="signup" action="login.html" onsubmit="return validate()">
+        
+        <div class="col-lg-8">
+        <label for="email">Email</label>
+            <br>
+            <br>
+        <input type="text" id="email">
+        <br>
+        <label for="error"id="error"></label>
+          </div>
+           <br>
+        <div class="col-12">
+        <label for="First name">First name</label>
+            <br>
+            <br>
+        <input type="text" id="name1">
+          </div>
+            <br>
+        <div class="col-12">
+        <label for="Second name">Second name</label>
+             <br>
+             <br>
+        <input type="text" id="name2">
+          </div>
+              <br>
+        <div class="col-12">
+        <label for="Phone number">Phone number</label>
+            <br>
+            <br>
+        <input type="text" id="phnumber">
+                </div>
+                <br>
+        <div class="col-12">
+        <label for="Password">New Password</label>
+            <br>
+            <br>
+        <input type="password" id="Pwd1">
+                </div>
+                <br>
+                <div class="`col-12">
+        <label for="Password">Retype password</label>
+             <br>
+             <br>
+        <input type="Password" id="Pwd2">
+        <br>
+        <br>
+        <div class="col-12">
+          <button id="submit" >Sign up</button>
+          
+        </div>
+
+
+
+      </form>
+    </div> -->
 
     <!-- signup form ends here -->
 
@@ -116,6 +178,6 @@
       <!-- footer ends here -->
     
 
-    
+    <script src="form.js"></script>
 </body>
 </html>

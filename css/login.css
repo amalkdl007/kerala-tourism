@@ -40,3 +40,30 @@ body{
     margin-top: 15px;
 
 }
+
+.end{
+    margin-top: 20%;
+}
+.signup{
+
+    color: white;
+    width: 880px;
+    height: 900px;
+    margin-left: 40%;
+    margin-top: 8%; 
+    
+}
+#submit{
+    background-color: rgb(211, 82, 82);
+    border: 2px solid rgb(173, 97, 97);
+    border-radius: 4px;
+    transition-duration: 2s;
+    
+}
+#submit :hover{
+    background-color:rgb(228, 0, 0);
+    color: white;
+}
+
+
+
